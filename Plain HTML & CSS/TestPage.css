@@ -1,0 +1,42 @@
+ /* Centering the page*/
+ .center {
+     max-width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ li{
+  margin: 2px;
+}
+/* Links are blue when hovering over */
+A:hover { COLOR: blue; TEXT-DECORATION: none; font-weight: none }
+
+/*Table stylings*/
+    table, td, th {
+        border: 1px solid black;
+    }
+
+    table {
+        width: 30%;        
+    }
+
+    th, td {
+    padding: 3px;
+    text-align: center;
+    }
+
+    /* table first column */
+    td:first-child {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    /*Image captions*/
+figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+}
+ 
+#submitButton {
+    margin-top: 3px;
+}
